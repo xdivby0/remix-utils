@@ -600,7 +600,7 @@ export let handle: ExternalScriptsHandle<LoaderData> = {
       {
         src: "https://unpkg.com/htmx.org@1.9.6",
         integrity: "sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni",
-        crossOrigin: 'anonymous"
+        crossOrigin: "anonymous"
       }
     ];
   },
@@ -617,7 +617,7 @@ export let handle: ExternalScriptsHandle = {
     {
       src: "https://unpkg.com/htmx.org@1.9.6",
       integrity: "sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni",
-      crossOrigin: 'anonymous",
+      crossOrigin: "anonymous",
       preload: true, // use it to render a <link rel="preload"> for this script
     }
   ],
